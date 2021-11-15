@@ -30,7 +30,7 @@ This project is centered around understanding the political view of the short ar
 
 # Data Description.
 The data for this project was collected by me from the following websites: www.freebeacon.com, www.americanthinker.com, www.huffpost.com, www.slate.com, news.gallup.com, www.cbsnews.com. I put the articles into three category based on the political view of the hosting website. The categories are "left", "center", and "right". The data file has only two columns: "article" and "label".
-Please see the ![Crawler](https://github.com/ekostrov/CapstoneProject/blob/main/Crawler.ipynb)
+Please see the ![Crawler](https://github.com/ekostrov/CapstoneProject/blob/main/JupyterNotebooks/Crawler.ipynb)
 for the data collection process.
 # Modeling 
 I have used CountVectorizer with three models: Naive Bayes, Support Vector Machines, and Random Forest. Then, I have added TFIDF and used the same three models as above, to see if the performance would imporve. Indeed, I have gotten better results with TFIDF. I have implemented Doc2Vec embedding but it didn't do that well. Final attempt was to use deep learning with LSTM model. It did almost as well as SVM model with TFIDF but tiny bit worst.
@@ -38,7 +38,7 @@ I have used CountVectorizer with three models: Naive Bayes, Support Vector Machi
  I used the Support Vector Machines model for the final training. We have perfect scores in our final training which is a bit surprising. The trained model might not scale well on the new data since it might be overfitted.
 
  # Business Decision
-I suggest to use Support Vector Machines model for the prediction of the political inclanation of the article. It can help internet users who are not sure about the flavor of the political news to verify what kind of an article they are reading. I have to add, that collecting more data would improve the performance of the model.
+I suggest to use Support Vector Machines model for the prediction of the political inclination of the article. It can help internet users who are not sure about the flavor of the political news to verify what kind of an article they are reading. I have to add, that collecting more data would improve the performance of the model.
 
 # Ways to improve the model.
 * Collecting more data from different websites would make the model more robust and scalable.
