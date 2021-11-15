@@ -4,7 +4,7 @@
 ├── non_technical.pdf                    <- PDF version of project presentation
 └── images                              <- Images generated from the project.ipynb code
 ```
-![cloud](./images/cloud.png)
+![cloud](https://github.com/ekostrov/CapstoneProject/blob/main/img/cloud.png)
 # Classification of short political articles collected from several news/opinions websites 
 # ** By Y. Kostrov
 ***
@@ -46,6 +46,6 @@ I suggest to use Support Vector Machines model for the prediction of the politic
 * Use XGBosst classifier.
 
 
-# Please review my full work in [Jupyter Notebook](https://github.com/ekostrov/xray_binary_classification/blob/main/JupyterScripts/submission.ipynb) or in the [non technical presentation](non_technical.pdf)
+# Please review my full work in [Jupyter Notebook](https://github.com/ekostrov/CapstoneProject/blob/main/JupyterNotebooks/project.ipynb) or in the [non technical presentation](non_technical.pdf)
 
 For any additional questions, please contact Yevgeniy (Gene) Kostrov at ekostrov@yahoo.com
